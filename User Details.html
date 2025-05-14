@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+           body{
+            background-color: rgb(0, 242, 255);
+           }
+           input[type=text],input[type=password]{
+                width:80%;
+                padding: 10px 15px;
+                margin: 8px 0;
+                display:inline-block;
+                border:1px solid #ccc;
+                box-sizing:border-box;
+            }
+            input[type=number],input[type=password]{
+                width:80%;
+                padding: 10px 30px;
+                margin: 8px 0;
+                display:inline-block;
+                border:1px solid #ccc;
+                box-sizing:border-box;
+            }
+            .B1{
+                background-color:rgb(23, 197, 119);
+            }
+            .S1{
+                background-color: rgb(23, 197, 119);
+            }
+
+
+        </style>
+        
+        <title>
+            User Details
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <form>
+                    <table>
+                         <h1><p>User Details</p></h1>
+                         <tr>
+                            
+                            <td><label>Aadharcard</label></td>
+                            <td><input type="number" placeholder="Enter the Aadhar number"></td>
+                            <td><div id="image"></td>
+                                <td>upload Aadharcard:<input type="file" name="photo"></td>
+                            <td></div></td>
+                            
+                         </tr>
+                         <tr>
+                             <td><label>Pancard </label></td>
+                             <td><input type="text" placeholder="Enter the pancard details"></td>
+                             <td><div id="image"></td>
+                                <td>upload Pancard:<input type="file" name="photo"></td>
+                            <td></div></td>
+                         </tr>
+                         <tr>
+                            <td><label>Drviving Lisence</label></td>
+                            <td><input type="text" placeholder="Enter the Driving Lisence details"></td>
+                            <td><div id="image"></td>
+                                <td>upload Driving Lisence:<input type="file" name="photo"></td>
+                            <td></div></td>
+                         </tr>
+                         <tr>
+                            <td><label>Voter Id</label></td>
+                            <td><input type="text" placeholder="Enter the voterid details"></td>
+                            <td><div id="image"></td>
+                                <td>upload Voter Id:<input type="file" name="photo"></td>
+                            <td></div></td>
+                         </tr>
+                        </table>
+                        <button class="S1" type="Save">Save</button>
+                        <button class="B1"><a href="signin.html">Back</a></button>
+                 </form>
+           </center>
+    </div>
+    </body>
+</html>
